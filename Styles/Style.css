@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+* {   /*reset del del margen y padding*/
+    padding: 0;
+    margin:0;
+}
+
+body{
+    
+    box-sizing: border-box;
+    background-color: #000000;
+    color: #F6F6F6;
+    width: 80%;
+}
+
+.header{
+    padding-left: 3%;
+    padding-top: 5%;
+   
+
+
+}
+.header__link{
+    display: flex;
+    gap: 100px;
+    
+
+
+}
+.header__link__a{
+    color: #22D4FD;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Krona One', sans-serif;
+    font-weight: 600;;
+    text-decoration: none;
+    
+    
+}
+.header__link__a:hover{
+    
+    color: #d8f1f7;
+
+}
+
+
+
+.datos{
+        padding-left: 5%;
+        padding-top: 5%;
+        display: flex;
+        flex-direction: column;
+
+}
+.datos__titulo_principal{
+    padding-left: 5%;
+       
+
+    color: #22D4FD;
+    text-decoration: none;
+    font-size: 36px;
+    font-family: 'Krona One', sans-serif;
+    font-weight: 600;;
+}
+.perfil{
+    border-radius: 50%;
+    width: 30%;
+    padding: 2%;
+     
+    
+}
+.datos__titulo{
+    padding-left: 5%;
+    padding-top: 5%;
+    color: #22D4FD;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    flex-direction: column;
+
+}
+
+.datos__acercademi{
+    width: 70%;
+    padding-top: 3%;
+    
+    font-family: 'Krona One', sans-serif;
+    font-size: 20px;
+    flex-direction: column;
+}
+
+.datos__lista{
+    padding-top: 1%;
+    font-family: 'Krona One', sans-serif;
+    font-size: 20px;
+    flex-direction: column;
+}
+
+.datos__proyectos__link{
+    display: flex;
+    padding-top: 1%;
+    font-family: 'Krona One', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: #F6F6F6;
+}
+.datos__proyectos__link:hover{
+    
+    color: #23aed1;
+
+}
+.perfil{
+    border-radius: 50%;
+    width: 30%;
+    
+}
+.footer {
+
+    background-color: #22D4FD;
+    color: #000000;
+    padding: 24px;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    margin-top: 5%;
+}
